@@ -6,14 +6,8 @@
   "sources": [
     {
       "name": "Pro++",
-      "source": "rules.txt",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
       "type": "hosts"
-    },
-    {
-      "name": "Remote rules",
-      "source": "https://example.org/rules",
-      "type": "hosts",
-      "exclusions": ["excluded rule 1"]
     }
   ],
   "transformations": ["Deduplicate", "Compress"],
