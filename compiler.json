@@ -1,0 +1,22 @@
+{
+  "name": "List name",
+  "description": "List description",
+  "homepage": "https://example.org/",
+  "license": "GPLv3",
+  "sources": [
+    {
+      "name": "Pro++",
+      "source": "rules.txt",
+      "type": "hosts",
+    },
+    {
+      "name": "Remote rules",
+      "source": "https://example.org/rules",
+      "type": "hosts",
+      "exclusions": ["excluded rule 1"]
+    }
+  ],
+  "transformations": ["Deduplicate", "Compress"],
+  "exclusions": ["excluded rule 1", "excluded rule 2"],
+  "inclusions": ["*"],
+}
