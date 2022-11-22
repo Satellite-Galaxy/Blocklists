@@ -8,9 +8,39 @@
       "name": "Pro++",
       "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
       "type": "hosts"
+    },
+    {
+      "name": "NRD (32 Days)",
+      "source": "https://dl.nrd-list.com/1/nrd-list-32-days.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "OISD Full",
+      "source": "https://abp.oisd.nl/",
+      "type": "hosts"
+    },
+    {
+      "name": "The NoTracking blocklist",
+      "source": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Peter Lowe's Blocklist",
+      "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext",
+      "type": "hosts"
+    },
+    {
+      "name": "Smart-TV Blocklist for AdGuard Home",
+      "source": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "WindowsSpyBlocker",
+      "source": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
+      "type": "hosts"
     }
   ],
-  "transformations": ["Deduplicate", "Compress"],
-  "exclusions": ["excluded rule 1", "excluded rule 2"],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments"],
+  "exclusions": [],
   "inclusions": ["*"]
 }
