@@ -23,7 +23,7 @@ jobs:
       -
         name: Compile host list
         id: compile
-        uses: Satellite-Galaxy/HostlistCompiler@latest
+        uses: Satellite-Galaxy/HostlistCompiler@test-0.1
         with:
           config: ./compiler.json
           output: hosts.txt
