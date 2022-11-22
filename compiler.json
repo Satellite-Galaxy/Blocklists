@@ -280,11 +280,6 @@
       "type": "adblock"
     },
     {
-      "name": "Firebog - Shalla-mal",
-      "source": "https://v.firebog.net/hosts/Shalla-mal.txt",
-      "type": "adblock"
-    },
-    {
       "name": "Matomo - Referrer Spam Blacklist",
       "source": "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt",
       "type": "adblock"
