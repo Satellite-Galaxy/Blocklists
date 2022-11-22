@@ -25,8 +25,8 @@ jobs:
         id: compile
         uses: Satellite-Galaxy/Adguard-hostlistcompiler-action@testing-0.10
         with:
-          config: compiler.json
-          output: hosts.txt
+          config: ./compiler.json
+          output: ./hosts.txt
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
