@@ -7,7 +7,7 @@
     {
       "name": "Pro++",
       "source": "rules.txt",
-      "type": "hosts",
+      "type": "hosts"
     },
     {
       "name": "Remote rules",
@@ -18,5 +18,5 @@
   ],
   "transformations": ["Deduplicate", "Compress"],
   "exclusions": ["excluded rule 1", "excluded rule 2"],
-  "inclusions": ["*"],
+  "inclusions": ["*"]
 }
