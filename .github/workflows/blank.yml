@@ -20,6 +20,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Checkout files
+        uses: Bhacaz/checkout-files@v2
+        with:
+         files: compiler.json
       -
         name: Compile host list
         id: compile
