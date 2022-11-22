@@ -247,37 +247,42 @@
     {
       "name": "Firebog - Personal Blocklist by WaLLy3K",
       "source": "https://v.firebog.net/hosts/static/w3kbl.txt",
-      "type": "adblock"
+      "type": "hosts"
     },
     {
       "name": "Firebog - Neohostsbasic",
       "source": "https://v.firebog.net/hosts/neohostsbasic.txt",
-      "type": "adblock"
+      "type": "hosts"
     },
     {
       "name": "Firebog - AdGuardDNS",
       "source": "https://v.firebog.net/hosts/AdguardDNS.txt",
-      "type": "adblock"
+      "type": "hosts"
     },
     {
       "name": "Firebog - Admiral",
       "source": "https://v.firebog.net/hosts/Admiral.txt",
-      "type": "adblock"
+      "type": "hosts"
     },
     {
       "name": "Firebog - Easylist",
       "source": "https://v.firebog.net/hosts/Easylist.txt",
-      "type": "adblock"
+      "type": "hosts"
     },
     {
       "name": "Firebog - Prigent Crypto",
       "source": "https://v.firebog.net/hosts/Prigent-Crypto.txt",
-      "type": "adblock"
+      "type": "hosts"
     },
     {
       "name": "Firebog - Prigent Malware",
       "source": "https://v.firebog.net/hosts/Prigent-Malware.txt",
-      "type": "adblock"
+      "type": "hosts"
+    },
+    {
+      "name": "Firebog - Prigent Ads",
+      "source": "https://v.firebog.net/hosts/Prigent-Ads.txt",
+      "type":"hosts"
     },
     {
       "name": "Matomo - Referrer Spam Blacklist",
@@ -347,6 +352,26 @@
     {
       "name": "EasyPrivacy",
       "source": "https://easylist.to/easylist/easyprivacy.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Dandelion Sprout's Anti-Malware List",
+      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Firebog - RPiList-Malware",
+      "source": "https://v.firebog.net/hosts/RPiList-Malware.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "The Blocklist Project - Ads",
+      "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/ads-ags.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "The Blocklist Project - SmartTV",
+      "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/smart-tv-ags.txt",
       "type": "adblock"
     }
   ],
