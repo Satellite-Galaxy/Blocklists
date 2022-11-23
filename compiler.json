@@ -384,7 +384,7 @@
       "type": "adblock"
     }
   ],
-  "transformations": ["Deduplicate", "Compress", "RemoveComments"],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "RemoveEmptyLines", "TrimLines", "InsertFinalNewLine"],
   "exclusions": ["@@||fonts.gstatic.com^$important"],
   "inclusions": ["*"]
 }
