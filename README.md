@@ -4,3 +4,7 @@ This is a repository that combines multiple Adguard Home blocklists into a singl
 This list will be updated automatically with Github Actions at 5:30 and 17:30 UTC, or whenever a new list is added.
 
 You can download the latest release [here](https://github.com/Satellite-Galaxy/Blocklists/releases/download/latest/hosts.txt)
+
+# Credits
+- [AdguardTeam](https://github.com/AdguardTeam) for creating [HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler)
+- [Milleruk](https://github.com/milleruk/) for the original [list](https://github.com/milleruk/adguard-filter-list)
