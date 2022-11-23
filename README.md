@@ -1,3 +1,6 @@
+### THIS LIST IS VERY AGGRESSIVE
+
+
 # Blocklists
 This is a repository that combines multiple Adguard Home blocklists into a single file by deduplicating and compressing it using [HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler).
 

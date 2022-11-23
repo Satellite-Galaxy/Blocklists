@@ -1,12 +1,26 @@
 {
-  "name": "List name",
-  "description": "List description",
-  "homepage": "https://example.org/",
-  "license": "GPLv3",
+  "name": "Blocklist",
+  "description": "A aggressive adguard home blocklist",
+  "homepage": "https://github.com/Satellite-Galaxy/Blocklists",
   "sources": [
     {
-      "name": "Pro++",
+      "name": "Hagezi - Pro++",
       "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi - Fake",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Hagezi - Threat Intelligence Feeds",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
+      "type":"adblock"
+    },
+    {
+      "name": "Hagezi - Personal List",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt",
       "type": "adblock"
     },
     {
