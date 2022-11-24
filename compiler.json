@@ -382,9 +382,19 @@
       "name": "The Blocklist Project - SmartTV",
       "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/smart-tv-ags.txt",
       "type": "adblock"
+    },
+    {
+      "name": "1Hosts - Xtra",
+      "source": "https://badmojr.github.io/1Hosts/Xtra/adblock.txt",
+      "type":"adblock"
+    },
+    {
+      "name": "CipherOps - Regex",
+      "source": "https://raw.githubusercontent.com/CipherOps/PiholePerfectBlocking/main/REGEX.txt",
+      "type": "adblock"
     }
   ],
-  "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"],
+  "transformations": ["Deduplicate", "Compress", "RemoveComments", "RemoveEmptyLines", "TrimLines", "InsertFinalNewLine"],
   "exclusions": ["@@||fonts.gstatic.com^$important"],
   "inclusions": ["*"]
 }
