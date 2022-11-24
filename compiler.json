@@ -397,6 +397,11 @@
       "name": "CipherOps - Regex",
       "source": "https://raw.githubusercontent.com/CipherOps/PiholePerfectBlocking/main/REGEX.txt",
       "type": "adblock"
+    },
+    {
+      "name": "CipherOps - Blocklist",
+      "source": "https://raw.githubusercontent.com/CipherOps/AdList/main/Blocklist",
+      "type": "adblock"
     }
   ],
   "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"],
