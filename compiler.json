@@ -224,6 +224,11 @@
       "type": "adblock"
     },
     {
+      "name": "OISD Extras",
+      "source": "https://abp.oisd.nl/extra/",
+      "type":"adblock"
+    },
+    {
       "name": "Lightswitch05 - Ads and Tracking",
       "source": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
       "type": "hosts"
