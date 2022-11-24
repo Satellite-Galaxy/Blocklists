@@ -34,13 +34,15 @@ jobs:
         with:
           config: compiler.json
           output: hosts.txt
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      - name: Get current time
+        uses: josStorer/get-current-time@v2.0.2
+        id: current-time
+        with:
+          format: YYYY-MM-DD-HH-MM
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "${{ steps.date.outputs.date }}"
+          automatic_release_tag: "${{ steps.current-time.outputs.formattedTime }}"
           prerelease: true
           title: "Compiled hosts"
           files: |
