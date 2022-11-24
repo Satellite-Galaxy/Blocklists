@@ -30,7 +30,7 @@ jobs:
       -
         name: Compile host list
         id: compile
-        uses: Satellite-Galaxy/Adguard-hostlistcompiler-action@latest
+        uses: Satellite-Galaxy/HostListCompiler-Action@latest
         with:
           config: compiler.json
           output: hosts.txt
