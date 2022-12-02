@@ -34,11 +34,12 @@ jobs:
         with:
           config: compiler.json
           output: hosts.txt
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Compile Lists | Automatic"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Compiled hosts"
-          files: |
-            hosts.txt
+          force_with_lease: true
