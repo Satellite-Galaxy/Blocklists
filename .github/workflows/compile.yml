@@ -34,7 +34,7 @@ jobs:
           output: hosts.txt
 
       - name: Push build
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
