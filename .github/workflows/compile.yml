@@ -33,11 +33,13 @@ jobs:
           config: compiler.json
           output: hosts.txt
 
-      - name: Push build
-        uses: actions/checkout@v3
-      - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "🛠 Compile Hosts | 🕥 Automatic"
-          git push
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Skylab[bot]"
+          git commit -a -m "🛠 Compile Hosts | 🕥 Automatic"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
