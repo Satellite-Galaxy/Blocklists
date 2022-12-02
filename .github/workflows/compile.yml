@@ -25,16 +25,14 @@ jobs:
     steps:
       - name: Checkout files
         uses: actions/checkout@v3
-
-        with:
-         files: compiler.json
-      -
-        name: Compile host list
+      
+      - name: Compile host list
         id: compile
         uses: Satellite-Galaxy/HostListCompiler-Action@latest
         with:
           config: compiler.json
           output: hosts.txt
+
       - name: Push build
       - uses: actions/checkout@v3
       - run: |
