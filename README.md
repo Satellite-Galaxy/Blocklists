@@ -8,6 +8,12 @@ This list will be updated automatically with Github Actions at 5:30 and 17:30 UT
 
 You can download the latest release [here](https://raw.githubusercontent.com/Satellite-Galaxy/Blocklists/main/hosts.txt)
 
+# Whitelists
+## Firestick
+If you have a Amazon Firestick you may want to whitelist the following to install new apps
+* `mas-ext.amazon.com`
+
+
 # Credits
 - [AdguardTeam](https://github.com/AdguardTeam) for creating [HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler)
 - [Milleruk](https://github.com/milleruk/) for the original [list](https://github.com/milleruk/adguard-filter-list)
